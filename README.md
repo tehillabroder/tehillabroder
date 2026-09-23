@@ -36,7 +36,7 @@ That kind of problem is exactly what I like working on: something looks simple f
 ### 💻 Other work
 
 **Online Shopper Purchase Prediction**
-Built and evaluated purchase-intent models using scikit-learn, including feature engineering, imbalanced classification and comparison of SVM, Random Forest, HistGradientBoosting and MLP models.
+Built and evaluated tabular classification models using scikit-learn, with imbalanced classification, feature engineering, hyperparameter tuning, threshold analysis and model interpretation of SVM, Random Forest, HistGradientBoosting and MLP models.
 
 **REST API Development**
 Built an authenticated REST API using Node.js and MongoDB, containerised with Docker and deployed to Google Cloud.
