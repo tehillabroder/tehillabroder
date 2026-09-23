@@ -4,17 +4,17 @@
 
 Give me a messy dataset, a model behaving strangely, or a result that does not quite add up, and I will keep digging until I understand why.
 
-I am particularly interested in applied ML problems where the interesting work starts underneath the headline metric: model behaviour, failure analysis, reliability, experimental design and figuring out why something is behaving the way it is.
+I am particularly interested in ML work where the useful questions start underneath the headline metric: how models fail, whether confidence is actually meaningful, what an experiment is really measuring, and why two apparently similar results can behave completely differently underneath.
 
-I am completing an MSc in Computer Science and am based in Israel.
+I am based in Israel and have an MSc in Computer Science.
 
-### 🔬 Current work
+### 🔬 Featured project
 
 #### Vision Confidence Reliability Framework
 
-My MSc project developed a Python/PyTorch framework for investigating how image-classifier confidence behaves as input quality deteriorates.
+I built a Python/PyTorch framework for investigating how image classifiers behave as input quality deteriorates.
 
-The framework applies controlled blur, Gaussian noise and low-light degradation, then preserves prediction-level evidence so that accuracy, calibration, failure detection and confidence behaviour can be analysed together.
+It applies controlled blur, Gaussian noise and low-light degradation, saves prediction-level evidence, and makes it possible to analyse accuracy, calibration, failure detection and confidence behaviour together rather than stopping at a single performance score.
 
 The project includes:
 
@@ -26,12 +26,12 @@ The project includes:
 * ECE, confidence-accuracy gap, HCER and failure-detection diagnostics
 * paired bootstrap analysis for key findings
 * trust-rule attribution and ablation
-* reproducible configuration, checkpoint and experiment metadata
-* 197 automated tests covering the research pipeline and safeguards
+* reproducible experiment configuration and evidence tracking
+* 197 automated tests across the evaluation pipeline and safeguards
 
-One of the findings I found most interesting was how much aggregate metrics could hide. Two models could reach almost identical accuracy while failing on different images and showing very different confidence behaviour. In another case, overall confidence fell while many predictions the model was already getting wrong became more confident.
+Some of the most useful findings came from results that looked ordinary at first. Two models reached almost identical accuracy under severe noise while failing on different images and showing very different confidence behaviour. In another case, overall confidence fell while many predictions the model was already getting wrong became more confident.
 
-That kind of result is exactly the work I enjoy: not stopping at the metric, but working out what is actually happening underneath it.
+That kind of problem is exactly what I like working on: something looks simple from the top, then gets much more interesting once you start pulling it apart.
 
 ### 💻 Other work
 
@@ -52,7 +52,7 @@ Experience across relational databases and SQL, Java and object-oriented develop
 
 ### 👋 What I'm looking for
 
-I am looking for an ML or ML-adjacent engineering role where I can bring curiosity and persistence, get deep into difficult technical problems, and help turn them into something that actually works.
+I am looking for an ML or ML-adjacent engineering role where I can get deep into difficult technical problems, work out what is actually going wrong, and help turn that understanding into something useful and reliable.
 
 I am especially interested in computer vision, model evaluation, robotics and autonomous systems, and data-heavy scientific applications.
 
